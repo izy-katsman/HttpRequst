@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "fb99a022-4f14-42fc-878c-bf978e970925",
+		"name": "vk.user",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.vk.com/method/users.get?user_ids=76229304&fields=bdate&access_token=4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a&v=5.103",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.vk.com/method/users.get?user_ids=76229304&fields=bdate&access_token=4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a&v=5.103",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vk",
+						"com"
+					],
+					"path": [
+						"method",
+						"users.get"
+					],
+					"query": [
+						{
+							"key": "user_ids",
+							"value": "76229304"
+						},
+						{
+							"key": "fields",
+							"value": "bdate"
+						},
+						{
+							"key": "access_token",
+							"value": "4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a"
+						},
+						{
+							"key": "v",
+							"value": "5.103"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.vk.com/method/users.getFollowers?access_token=4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a&v=5.103",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.vk.com/method/users.getSubscriptions?v=5.103&access_token=4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a&extended=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vk",
+						"com"
+					],
+					"path": [
+						"method",
+						"users.getSubscriptions"
+					],
+					"query": [
+						{
+							"key": "user_ids",
+							"value": "76229304",
+							"disabled": true
+						},
+						{
+							"key": "fields",
+							"value": "bdate",
+							"disabled": true
+						},
+						{
+							"key": "v",
+							"value": "5.103"
+						},
+						{
+							"key": "access_token",
+							"value": "4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a"
+						},
+						{
+							"key": "extended",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.vk.com/method/users.getFollowers?access_token=4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a&v=5.103",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.vk.com/method/users.getFollowers?access_token=4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a&v=5.103",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vk",
+						"com"
+					],
+					"path": [
+						"method",
+						"users.getFollowers"
+					],
+					"query": [
+						{
+							"key": "user_ids",
+							"value": "76229304",
+							"disabled": true
+						},
+						{
+							"key": "fields",
+							"value": "bdate",
+							"disabled": true
+						},
+						{
+							"key": "access_token",
+							"value": "4592952e05c8d82268e37e0141180392de6065dd40ae03f6be5289bc9cc3096b621cfb9e06cc778e3b03a"
+						},
+						{
+							"key": "v",
+							"value": "5.103"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
